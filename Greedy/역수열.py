@@ -4,4 +4,11 @@ sys.stdin = open('HyunJae/CodeTest/input.txt','r')
 n = int(input())
 a = list(map(int, input().split()))
 
-print(a)
+seq=[0]*n
+for i in range(n):
+    for j in range(n):
+        if a[i]==0 and seq[j]==0:   # 빈자리
+            seq[j]=i+1
+            break
+        elif seq[j]==0:             # 빈자리 채워가기
+            a[i]-=1
