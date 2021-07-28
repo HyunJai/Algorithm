@@ -1,7 +1,7 @@
 # 유용하게 사용되는 함수
 ---
   
-## 1. 문자열 관련 문제
+## 1. 문자열 관련 함수
 - any() : 인자로 받은 반복가능한 자료형(iterable)중 단 하나라도 참(True)이 있으면 참(True)를 반환하는 함수
 - str.isalnum() : a-z, A-Z, 0-9 포함하면 True
 - str.isalpha() : a-z, A-z 포함하면 True
@@ -12,12 +12,19 @@
 - str.center() : -----Bae-----
 - str.rjust() : ----------Bae
   
-## 2. 시간 관련 문제
+## 2. 시간 관련 함수
 - datetime.strptime(input(),'%a %d %b %Y %H:%M:%S %z') : Sun 10 May 2015 13:54:36 -0700
 - timedelta.total_seconds() : 기간에 포함된 총 시간을 초(seconds)로 반환
   
-## 3. 그룹 관련 문제
+## 3. 그룹 관련 함수
 - itertools.groupby() : 함수를 사용하면 혈액형별로 묶어 데이터를 분류함
+
+## 4. 개수 관련 함수
+
+- collections.OrderedDict() : 입력된 아이템들(items)의 순서를 기억하는 Dictionary 클래스
+- collections.Counter() : 컨테이너에 동일한 값의 자료가 몇개인지를 파악하는데 사용되는 객체로 딕셔너리를 리턴함
+- collections.Counter().most_common(3) : 동일한 값의 자료가 몇개인지 3개까지만 파악하는데 사용되는 객체
+
 
 # 🍯'팁'
 - 정답제출시 *를 붙여주면 리스트가 풀림
