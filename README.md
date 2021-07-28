@@ -21,3 +21,4 @@
 
 2. 시간 관련 문제
 - datetime.strptime(input(),'%a %d %b %Y %H:%M:%S %z') : Sun 10 May 2015 13:54:36 -0700
+- timedelta.total_seconds() : 기간에 포함된 총 시간을 초(seconds)로 반환
