@@ -1,11 +1,3 @@
-# 알고리즘
----
-- BFS(Binary First Search)
-- DFS(Depth First Search)
-- Greedy
-- GA(Genetic Algorithm)
-- MiniMax
-
 # 유용하게 사용되는 함수
 ---
   
@@ -35,5 +27,15 @@
   >> [1, 2, 3, 4, 5]
   print(*a)
   >> 1 2 3 4 5
+```
+```
+  from itertools import groupby
+  
+  # 예시 1
+  print(*[(len(list(c)), int(k)) for k, c in groupby(input())]) 
+  
+  # 예시 2
+  for k,c in groupby(input()):
+    print((len(list(c)), int(k)), end=' ')                      
 ```
 - 그리디 문제 = sort()로 대부분 
