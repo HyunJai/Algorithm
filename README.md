@@ -22,6 +22,8 @@
 # 🍯'팁'
 - 정답제출시 *를 붙여주면 리스트가 풀림
 ```
+  예시 1
+  
   a = [1, 2, 3, 4, 5]
   print(a)
   >> [1, 2, 3, 4, 5]
@@ -29,13 +31,24 @@
   >> 1 2 3 4 5
 ```
 ```
+  예시 2
+  
   from itertools import groupby
   
-  # 예시 1
   print(*[(len(list(c)), int(k)) for k, c in groupby(input())]) 
+                    
+```
+```
+  예시 3
   
-  # 예시 2
-  for k,c in groupby(input()):
-    print((len(list(c)), int(k)), end=' ')                      
+  [print(letter) for letter in letters]
+  >>>('b', 3)
+     ('a', 2)
+     ('c', 2)
+     
+  [print(*letter) for letter in letters]
+  >>>b 3
+     a 2
+     c 2 
 ```
 - 그리디 문제 = sort()로 대부분 
