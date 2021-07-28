@@ -1,10 +1,10 @@
 # 알고리즘
 ---
-1. BFS(Binary First Search)
-2. DFS(Depth First Search)
-3. Greedy
-4. GA(Genetic Algorithm)
-5. MiniMax
+- BFS(Binary First Search)
+- DFS(Depth First Search)
+- Greedy
+- GA(Genetic Algorithm)
+- MiniMax
 
 # 유용하게 사용되는 함수
 ---
