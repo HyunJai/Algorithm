@@ -32,6 +32,12 @@
 - re.search() : 문자열의 전체를 검색하여 정규식과 매치되는지 조사
 - re.findall() : 정규식과 매치되는 모든 문자열(substring)을 리스트로 돌려줌
 - re.finditer() : 정규식과 매치되는 모든 문자열(substring)을 반복 가능한 객체로 돌려줌
+```
+  import re
+  re.match(r'[a-zA-Z0-9_-]+@[a-zA-Z0-9]+\.[a-zA-Z]{1,3}$',s)
+  
+  {1,3} : extension의 최대 길이가 3
+```
 
 
 # 🍯'팁'
