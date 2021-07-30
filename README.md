@@ -6,8 +6,8 @@
 - str.isalnum() : a-z, A-Z, 0-9 포함하면 True
 - str.isalpha() : a-z, A-z 포함하면 True
 - str.isdigit() : 0-9 포함하면 True
-- str.lower() : 소문자 포함하면 True
-- str.upper() : 대문자 포함하면 True
+- str.islower() : 소문자 포함하면 True
+- str.isupper() : 대문자 포함하면 True
 - str.ljust() : Bae---------- 
 - str.center() : -----Bae-----
 - str.rjust() : ----------Bae
